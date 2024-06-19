@@ -19,6 +19,10 @@ function App() {
           </div>
           <div className="twelve wide column">
             <PetBrowser />
+            <div className="App">
+              <h1>Adopt a Pet</h1>
+              <PetBrowser />
+            </div>
           </div>
         </div>
       </div>
@@ -27,3 +31,17 @@ function App() {
 }
 
 export default App;
+
+/*import React from "react";
+import PetBrowser from "./PetBrowser";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Adopt a Pet</h1>
+      <PetBrowser />
+    </div>
+  );
+}
+
+export default App;*/
